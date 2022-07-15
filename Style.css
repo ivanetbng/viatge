@@ -1,0 +1,101 @@
+
+/* CSS Document */
+
+   .container{ display: flex; flex-direction: column; margin: 20px 0
+			
+		}
+		.boto{
+			display: block; height: 200px; width: 600px;margin: 20px auto 
+		}
+		
+		h2{
+			padding: 20px; background-color: rgba(255,255,255,0.50); font-family: arial, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; color:#000000; text-decoration: none;
+			font-size: 40px
+		}
+		a{ text-decoration: none;}
+		
+		.header{
+			height: 200px; 
+			text-align: center;
+			margin-top: 50px;
+			font-family: arial;
+			font-size: 50px;
+			font-weight: 700;
+			background-image: url(https://www.iamexpat.nl/sites/default/files/styles/ogimage_thumb/public/polder-netherlands.jpg);
+			background-size: cover;
+			vertical-align: middle;	
+		}
+@media only screen and (max-width:400px){
+	.row{
+		display: flex;
+		flex-direction: column;
+	}
+	.imatge_boto{
+		margin: auto;
+		display: flex;
+		align-content: center;
+		justify-content: center
+		
+	}
+}
+	
+
+.row{
+	display: flex; 
+	column-gap: 5px;
+	margin: auto;
+	
+	
+}
+.boto{
+	margin: 0 auto;
+	column-gap: 5px;
+	min-width: 250px;
+}
+
+	img{
+		margin: auto;
+		max-width: 250px;
+	}
+.titol{
+	margin: 10px auto;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px
+	
+	
+}
+
+.portada-ciutat{
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.text{ 
+padding: 40px}
+
+.marc-video{
+	display: flex;
+	margin: 20px 0;
+	
+}
+
+iframe{
+	margin: auto;
+	
+}
+p{
+	font-family: arial;
+	font-size: 16px;
+	margin: auto;
+	
+}
+.link{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+a{margin: auto;}
+	
+		
